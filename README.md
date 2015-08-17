@@ -17,10 +17,11 @@ OK
 
 CONNECT OK
 AT+CIPSEND
-> hellop
+Input: hellop
 OK
+
 AT+CIPSEND
-> #024
+Input: #024
 SEND OK
 
 CLOSED
