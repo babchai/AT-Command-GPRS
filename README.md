@@ -27,8 +27,8 @@ SEND OK
 
 CLOSED
 
-#https://vsblogs.wordpress.com/2013/11/28/tcp-connection-over-gprs-using-sim900-and-at-commands/
-#http://electronics.stackexchange.com/questions/122839/sim900-at-commands-cipsend-pop3read
+https://vsblogs.wordpress.com/2013/11/28/tcp-connection-over-gprs-using-sim900-and-at-commands/
+http://electronics.stackexchange.com/questions/122839/sim900-at-commands-cipsend-pop3read
 
 
 OK
@@ -51,5 +51,7 @@ OK
 
 CONNECT OK
 AT+CIPSEND
-> GET http://www.m2msupport.net/m2msupport/http_get_test.php HTTP/1.0
+GET http://www.m2msupport.net/m2msupport/http_get_test.php HTTP/1.0
 SEND OK
+
+http://m2msupport.net/m2msupport/atcipserver-configure-module-as-server/
